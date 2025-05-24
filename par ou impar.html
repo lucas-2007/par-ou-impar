@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo do impar ou par</title>
+    <style>
+        body {
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: center;   
+        }
+        button {
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+    <body>
+        <h1 class="titulo">bem vindo a centra de relacionamento</h1>
+        <p>selecione umas das opçôes abaixo</p>
+           
+        <button class="btn" onclick="verSaldo()">Ver Saldo</button>
+        <br>
+        <button class="btn" onclick="depositar()">depositar</button>
+        <br>
+        <button class="btn" onclick="sacar()">sacar</button>
+        <br>
+        <button class="btn" onclick="pix()">pix</button>
+        
+        <h2 class="resposta" id="resposta"></h2>
+        
+        <input type="number" class="input" id="input">
+        <input type="number" class="inputx" id="inputx">
+        <button class="btn" onclick="conf()">confirmar</button>
+        <script src="script3.js"></script>
+    </body>
+</html>
